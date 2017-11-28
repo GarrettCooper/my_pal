@@ -14,11 +14,11 @@ import './App.css';
      value: 'guardian'
    },
    {
-     label: "Family",
+     label: 'Family',
      value: 'family'
    },
    {
-     label: "Other",
+     label: 'Other',
      value: 'other'
    }
  ];
