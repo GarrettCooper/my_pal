@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from './ppcc_logo.png';
+import Form from './Form';
+import Page from './Page';
 import './App.css';
 
 class App extends Component {
@@ -11,8 +13,11 @@ class App extends Component {
           <h1 className="App-title">Pediatric Palliative Care Coalition</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Please fill out this basic information.
         </p>
+        <Form/>
+        <Page/>
+      
       </div>
     );
   }

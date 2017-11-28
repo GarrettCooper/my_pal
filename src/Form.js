@@ -23,23 +23,7 @@ import './App.css';
    }
  ];
 
- class App extends Component {
-   render() {
-     return (
-       <div className="App">
-         <header className="App-header">
-           <img src={logo} className="App-logo" alt="logo" />
-           <h1 className="App-title">Pediatric Palliative Care Coalition</h1>
-         </header>
-         <p className="App-intro">
-           To get started, edit <code>src/App.js</code> and save to reload.
-         </p>
-       </div>
-     );
-   }
- }
-
-class BasicForm extends Component {
+ class BasicForm extends Component {
 
    constructor( props ) {
      super( props );
@@ -49,14 +33,6 @@ class BasicForm extends Component {
    render() {
      return (
        <div className="App">
-         <header className="App-header">
-           <img src={logo} className="App-logo" alt="logo" />
-           <h1 className="App-title">Pediatric Palliative Care Coalition</h1>
-         </header>
-         <p className="App-intro">
-           Please fill out this basic information.
-         </p>
-
          <Form onSubmit={submittedValues => this.setState( { submittedValues } )}>
            { formApi => (
              <form onSubmit={formApi.submitForm} id="form2"><br/>
